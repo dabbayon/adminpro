@@ -9,6 +9,12 @@ import { AppComponent } from './app.component';
 import { LoginComponent } from './login/login.component';
 import { RegisterComponent } from "./register/register.component";
 
+//temporal
+import { FormsModule } from '@angular/forms';
+
+//  import { ChartsModule } from 'ng2-charts';
+ 
+
 @NgModule({
   declarations: [
 
@@ -19,7 +25,8 @@ import { RegisterComponent } from "./register/register.component";
   imports: [
     BrowserModule,
     APP_ROUTES,
-    PagesModule
+    PagesModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
