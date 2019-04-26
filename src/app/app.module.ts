@@ -13,6 +13,8 @@ import { RegisterComponent } from "./register/register.component";
 import { FormsModule } from '@angular/forms';
 
 //  import { ChartsModule } from 'ng2-charts';
+//servicios
+import { ServiceModule } from './services/service.module';
  
 
 @NgModule({
@@ -26,9 +28,9 @@ import { FormsModule } from '@angular/forms';
     BrowserModule,
     APP_ROUTES,
     PagesModule,
-    FormsModule
+    FormsModule,
+    ServiceModule
   ],
-  providers: [],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

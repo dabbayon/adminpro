@@ -1,3 +1,4 @@
+import { SettingsService, SidebarService } from './services/service.index';
 import { Component } from '@angular/core';
 
 @Component({
@@ -7,4 +8,5 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'adminpro';
+  constructor( public _ajustes: SettingsService ) { }
 }
